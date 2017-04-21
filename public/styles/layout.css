@@ -147,7 +147,10 @@ section {
 
 #bg-container {
   position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: -1;
   background-image: url("../img/bg.jpg");
   background-size: cover;
@@ -174,7 +177,6 @@ section {
   border-radius: 50%;
 }
 
-
 #skills h3 {
   margin-top: 10px;
   font-size: 11pt;
@@ -198,11 +200,9 @@ section {
   #bg-container {
     position: center;
   }
-
   nav {
     display: none;
   }
-
   section {
     width: 80%;
   }

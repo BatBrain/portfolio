@@ -1,1 +1,24 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BatBrain</title>
+
+  <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="/scripts/app.js"></script>
+</head>
+
+<body>
+  <div id="bg-container"></div>
+  <%# include components/menu.ejs %>
+  <%- include components/nav.ejs %>
+  <%- include components/profile.ejs %>
+  <%- include components/skills.ejs %>
+  <%# include components/projects.ejs %>
+  <%- include components/experience.ejs %>
+  <%- include components/education.ejs %>
+</body>
+
+</html>
